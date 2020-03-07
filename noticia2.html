@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>URBAN NEWS</title>
+    <link rel="icon" href="icon/icon-web.png" type="image/ico">
+
+    <!--CSS core Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--customCssForDarkMode-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <!-- Rate Yo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--myCustomCss-->
+    <link rel="stylesheet" href="css/noticia2.css">
+</head>
+
+
+<body class="darkMode" id="contenidoPrincipal">
+    <header>
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg navbar-white bg-white" id="navbar">
+            <a class="navbar-brand" href="index.html" class="d-inline-block d-align-top" id="navbarLogo">
+                <img src="icon/logo.png" alt="empresa" id="logoEmpresa"> URBAN NEWS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="icon/menu.png" alt="desplegable" id="menuDesplegable">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <button id="botonInicio" class="btn btn-outline-secondary" type="button" data-toggle="modal"
+                            data-target="#loginModal">Iniciar sesión</button>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto " id="menuNavbar">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item" id="navDarkMode">
+                        <div>
+                            <input type="checkbox" class="checkbox " id="switch">
+                            <label for="switch" class="switch-label">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--  NEWS IMAGES CAROUSEL-->
+
+    <div class="carousel slide" id="carouselImages1" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/joseluis.jpg" class="d-block w-100" alt="imagen" id="imgCarousel">
+            </div>
+            <div class="carousel-item">
+                <img src="img/joseluis2.jpg" class="d-block w-100" alt="imagen" id="imgCarousel">
+            </div>
+            <div class="carousel-item">
+                <img src="img/joseluis3.jpg" class="d-block w-100" alt="imagen" id="imgCarousel">
+            </div>
+        </div>
+        <a href="#carouselImages1" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span sr-only></span>
+        </a>
+        <a href="#carouselImages1" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span sr-only></span>
+        </a>
+    </div>
+    </div><br>
+
+
+
+    <!-- MAIN SECTION (CONTENIDO)-->
+
+    <section>
+        <div class="container">
+            <h1><strong>Este es José Luis, el taxista degollado que dejó su trabajo como profesor para ponerse al
+                    volante</strong></h1>
+            <h4>El hombre era asalariado y había comenzado a trabajar como taxista hace poco más de un año. Todo apunta
+                a que fue víctima de un robo.</h4>
+            <p class="card-text"><small class="text-muted">Publicado: 03/09/2019, Alcalá de Henares.</small></p>
+            <p class="card-text"><small class="text-muted">Actualizado: 20/09/2019.</small></p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="lineaSeparadora"><strong>De profesor a taxista-</strong><a href="#" data-toggle="modal"
+                                data-target="#autor1Modal">Jaime Susanna</a><br></div><br>
+                        Pasaban 40 minutos de las 12 de la noche cuando el servicio de emergencias de Alcalá de Henares
+                        (Madrid) recibía la llamada que anticipaba una tragedia. En el número 16 de la calle Manuel
+                        Laredo un taxista había sido asesinado. La víctima se llamaba José Luis Espada y tenía 60 años;
+                        llevaba solamente un año al volante y había dejado su trabajo como profesor. Había sido
+                        degollado y presentaba pequeños cortes en las manos, lo que indica que pudo haber un forcejeo.
+                        Estaba en el asiento del conductor del Toyota Prius y con el cinturón puesto. Cuando llegó el
+                        servicio de emergencias solo pudo certificar la muerte, que se había producido media hora atrás,
+                        aproximadamente. La Policía baraja la hipótesis de un robo, ya que el interior del vehículo
+                        estaba revuelto.
+
+                        El municipio madrileño de Alcalá de Henares ha amanecido consternado por el suceso. Hacía no más
+                        de un año que José Luis conducía un taxi de la compañía Alcalá Radio Taxi (que cuenta con unos
+                        70 coches asociados). Era conductor asalariado, es decir, sin licencia propia y trabajaba
+                        siempre de noche.
+                    </div>
+                    <div class="col-md-6">
+                        Vivía del barrio complutense de Los Nogales, una zona compuesta por cuatro grandes bloques de
+                        viviendas y donde predominan las clases trabajadoras, en el norte del municipio. José Luis y su
+                        familia llevaban cerca de 30 años viviendo allí.
+
+                        Estaba casado con Nieves, tenía dos hijos (Luis y Laura) y hacía poco que había sido abuelo por
+                        primera vez. Antes de taxista había sido profesor, igual que su mujer. <cite>"Era un auténtico
+                            cielo"</cite> ,
+                        afirma una vecina de su mismo bloque. Esta opinión la comparte su amigo y compañero Eloy Lozano:
+                        <cite>“Era una bellísima persona. Siempre se dice esto cuando muere alguien, pero en este caso
+                            es
+                            cierto“</cite>, ha declarado, visiblemente afectado por los hechos. <cite>"Era encantador y
+                            muy educado.
+                            Siempre te saludaba con una sonrisa"</cite>, afirma su vecina de la puerta contigua, aún
+                        perpleja con
+                        la noticia. <cite>"Y los hijos igual, super educados... ¡Qué horror!"</cite>. José Luis apenas
+                        frecuentaba
+                        los bares de su barrio y era una persona muy casera, según afirman sus conocidos.
+                        <u>Véase más noticias en <a href="index.html">www.urbanews.com</a> o en <a
+                                href="https://www.elespanol.com/reportajes/20191119/jose-luis-taxista-degollado-trabajo-profesor-ponerse/445705869_0.html">
+                                www.abc.es</a></u>
+                    </div>
+                </div>
+            </div><br>
+            <p id="cita"><cite>"¿Qué clase de mundo es éste que puede mandar máquinas a Marte y no hace nada para
+                    detener el asesinato de un ser humano?
+                    (<a href="#" data-toggle="modal" data-target="#autor2Modal">José Saramago</a>)"</cite></p>
+            <div id="lineaSeparadora">Video</div><br>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AHa__FtPicw" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div><br><br>
+            <div id="lineaSeparadora">Valoraciones</div><br>
+            <div class="container" id="valoraciones">
+                            <div class="dislike">
+                                <i class="fa fa-thumbs-down"></i>
+                                <i class="outer fa fa-circle-thin"></i>
+                            </div>
+                            <div class="like">
+                                <i class="fa fa-heart"></i>
+                                <i class="outer fa-circle-thin"></i>
+                            </div>
+                <div class="container" id="usuarios">
+                    <p>Puntuaciones de otros usuarios:</p><br>
+                    <p> Antonio_11 : 4 estrellas <br> El_niño_lector : 2 estrellas</p>
+                </div>
+            </div><br><br>
+            <button id="ocultar" class="btn btn-outline-secondary" data-target="#valoraciones">Ocultar
+                valoraciones</button>
+            <button id="ver" class="btn btn-outline-secondary" data-target="#valoraciones">Ver valoraciones</button>
+        </div>
+        </div>
+    </section><br>
+
+
+    <!-- MODALS -->
+
+    <!-- MODAL LOGIN-->
+    <section>
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" id="modalHeader">
+                        <img src="icon/logo.png" alt="#" id="logoModal">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-title text-center">
+                            <h4>Login</h4>
+                        </div>
+                        <div class="d-flex flex-column text-center">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email1" placeholder="Tu e-mail...">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password1"
+                                        placeholder="Tu contraseña...">
+                                </div>
+                                <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUTHOR MODALS -->
+    <section>
+        <div class="modal fade" id="autor1Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Jaime Susanna</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/jaimeSusanna.PNG" alt="jaime" id="jaimeSusanna">
+                        <p>Jaime Susanna, periodísta con varios artículos escritos para el periódico el español, y
+                            profesor de
+                            la Universidad Complutense de Madrid (uc3m).
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="modal fade" id="autor2Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">José Saramago</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/joseSaramago.jpg" alt="jaime" id="joseSaramago">
+                        <p>José de Sousa Saramago (Azinhaga, 16 de noviembre de 1922-Tías, 18 de junio de 2010) fue un
+                            escritor, novelista, poeta, periodista y dramaturgo portugués. En 1998 se le otorgó el
+                            Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible
+                            una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la
+                            ironía».​</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- DARK MODE BTN -->
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="page-footer pt-0">
+        <div class="container">
+            <div class="row pt-5 mb-5 d-flex justify-content-center" id="fastLinks">
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a href="whoWeAre.html">¿QUIENES
+                            SOMOS?</a></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a
+                            href="index.html">INICIO</a></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a
+                            href="contacto.html">CONTACTO</a></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a href="suscribe.html">SUSCRIBETE
+                            PARA MÁS
+                            NOTICIAS</a>
+                    </button>
+                </div>
+            </div>
+            <hr class="rgba-white-light">
+            <div class="row d-flex mb-md-0 mb-4 justify-content-center">
+                <div class="col-md-8 col-12 mt-5">
+                    <p> La mayor página de noticias juveniles, en la cual podrás disfrutar de las últimas noticias en
+                        cuanto a
+                        temas de actualidad se refiere, haciendo sobre todo hincapié en los desastres naturales así como
+                        los
+                        accidentes
+                        graves que ocurren debido a la negligencia de muchas personas.</a></p>
+                    <p>Puedes seguirnos y encontrarnos también en RRSS como :</p>
+                </div>
+            </div>
+            <hr class="clearfix d-md-none rgba-white-light">
+            <div class="row pb-3">
+                <div class="col-md-12">
+                    <div class="footer-socials mb-5 flex-center">
+                        <a href="https://www.google.com"><img src="icon/google.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.linkedin.com"><img src="icon/linkedin.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.instagram.com"><img src="icon/instagram.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.twitter.com"><img src="icon/twitter.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.facebook.com"><img src="icon/facebook.png" alt="#" id="logosFooter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                &copy; 2019 Copyright Todos los derechos reservados: <a href="index.html">URBAN NEWS</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- OTHER JS (AND CUSTOM JS)-->
+
+    <script src="js/oculto.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/rating.js"></script>
+    <script src="js/darkMode.js"></script>
+    <script src="js/ocultar.js"></script>
+    
+</body>
+
+</html>

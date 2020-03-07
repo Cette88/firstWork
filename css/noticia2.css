@@ -1,0 +1,233 @@
+/* ************************************* GLOBAL CONFIG ***************************************************** */
+
+#contenidoPrincipal {
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+/* *************************************CONFIG NAVIGATION BAR********************************************* */
+
+#navbar {
+    opacity: 96%;
+    position: relative;
+}
+
+#navbarLogo {
+    color: black;
+    font-family: 'Nosifer', cursive;
+}
+
+.dropdown-menu {
+    
+    background-color: rgba(165, 164, 164, 1.0);
+ }
+ 
+ .container>div>nav {
+    
+     align-items: center;
+ }
+ .navbar-brand {
+     margin-top: 1px;
+     color: rgba(88, 88, 88, 0.692);
+     
+ }
+ .nav-link {
+     color: rgba(88, 88, 88, 0.692);
+ }
+ .form-inline>img {
+     width: 30px;
+     height: 30px;
+ }
+ #areaBuscar {
+     background: transparent;
+ }
+ #menuDesplegable {
+    width: 30px;
+    height: 30px;
+ }
+ #logoEmpresa {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+ }
+
+#dropdownMenuButton {
+    border-radius: 20px;
+}
+
+ #dropdownMenuButton:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 0 6px #a1c3fe;
+}
+
+#botonInicio {
+    border-radius: 20px;
+}
+
+#botonInicio:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 0 6px #a1c3fe;
+}
+
+
+
+/* ******************************************************* CAROUSEL ****************************************** */
+
+
+
+
+
+/* **************************************CONFIG DARK MODE************************************************* */
+
+.switch-label {
+    background: #111;
+    display: flex;
+    border-radius: 50px;
+    height: 26px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    position: relative;
+}
+.fa-moon {
+    color: #f1c40f;
+}
+.fa-sun {
+    color: #f1c40f;
+}
+
+#switch {
+    opacity: 0;
+    position: absolute;
+}
+
+
+.dark {
+   background: #121212;
+   color: white;
+   transition: 1s all ease;
+   
+}
+
+
+/* ************************************************** CONFIG MAIN CONTENT ************************************************** */
+
+
+#lineaSeparadora {
+    border-bottom: 1px solid #111;
+}
+
+#cita {
+    text-align: center;
+}
+
+
+#imgCarousel {
+    width: 100%;
+    height: 600px;
+}
+
+#lineaSeparar {
+    height: 1px;
+    color: #111;
+}
+
+#valoraciones {
+    align-items: center;
+    
+}
+
+.rating-header {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#valoraciones {
+    border: 1px solid #111;
+    border-radius: 20px;
+}
+
+
+
+/* ************************************* CONFIG LOGIN MODAL*********************************************** */
+
+
+
+#modalHeader, .close {
+    margin-top: -1rem;
+    align-items: center;
+    align-content: center;
+}
+#logoModal {
+    width: 90px;
+    height: 90px;
+    margin-left: 190px;
+}
+
+
+
+
+/* ************************************ AUTOR1 MODAL ****************************************************** */
+
+#autor1Modal {
+    text-align: center;
+    align-items: center;
+}
+
+
+/************************************* AUTOR2 MODAL ******************************************************* */
+
+#autor2Modal {
+    text-align: center;
+    align-items: center;
+}
+
+
+#jaimeSusanna {
+    width: 300px;
+    height: 500px;
+}
+
+
+#joseSaramago {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+
+
+/* ***********************************CONFIG FOOTER********************************************************* */
+
+.page-footer {
+    align-items: center;
+    text-align: center;
+    background: #292c35;
+    color: white;
+   
+}
+
+#logosFooter {
+ width: 40px;
+ height: 40px;
+}
+
+.footer-copyright {
+    background: black;
+}
+
+.rgba-white-light {
+    background: white;
+}
+
+#botonesAcceso {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

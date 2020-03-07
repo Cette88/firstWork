@@ -1,0 +1,180 @@
+
+/* ******************************************* GENERAL CONTENT ************************************************ */
+
+#totalContent {
+    font-family: 'Noto Serif', serif;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/* *************************************CONFIG NAVIGATION BAR********************************************* */
+
+#navbar {
+    opacity: 96%;
+    position: relative;
+}
+
+#navbarLogo {
+    color: black;
+    font-family: 'Nosifer', cursive;
+}
+
+.dropdown-menu {
+    
+    background-color: rgba(165, 164, 164, 1.0);
+ }
+ 
+ .container>div>nav {
+    
+     align-items: center;
+ }
+ .navbar-brand {
+     margin-top: 1px;
+     color: rgba(88, 88, 88, 0.692);
+     
+ }
+ .nav-link {
+     color: rgba(88, 88, 88, 0.692);
+ }
+ .form-inline>img {
+     width: 30px;
+     height: 30px;
+ }
+ #areaBuscar {
+     background: transparent;
+ }
+ #menuDesplegable {
+    width: 30px;
+    height: 30px;
+ }
+ #logoEmpresa {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+ }
+
+#dropdownMenuButton {
+    border-radius: 20px;
+}
+
+ #dropdownMenuButton:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 0 6px #a1c3fe;
+}
+
+#botonInicio {
+    border-radius: 20px;
+}
+
+#botonInicio:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 0 6px #a1c3fe;
+}
+
+
+
+/******************************************************** SUBSCRIBE CONTAINER ********************************************************** */
+
+
+#suscripcion {
+    background: #FFF;
+    box-shadow: 2px 2px 5px #292c35;
+    padding: 10px 50px 50px 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    color: #445963;
+    opacity: 96%;
+                 
+}
+
+#bell {
+    width: 100px;
+    height: 100px;
+}
+
+#titulo {
+     text-transform: uppercase;
+     margin-bottom: 0;
+     margin-top: 0;
+     font-size: 27px;
+}
+
+#moreInfo {
+    letter-spacing: 0;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+#email {
+    background: transparent;
+    border: none;
+    border-radius: 2%;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    font-size: 15px;
+    font-style: italic;
+    border-bottom: 2px solid #a1c3fe;
+}
+
+#botonGo {
+    padding: 12px 45px 12px 45px;
+    transition: 0.3s linear;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+   
+}
+
+#botonGo:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 0 6px #a1c3fe;
+}
+
+#botonGo:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 0px #a1c3fe;
+}
+
+
+
+/* *********************************************FOOTER ******************************************************************** */
+
+
+.page-footer {
+    align-items: center;
+    text-align: center;
+    background: #292c35;
+    color: white;
+   
+}
+
+#logosFooter {
+ width: 40px;
+ height: 40px;
+}
+
+.footer-copyright {
+    background: black;
+}
+
+.rgba-white-light {
+    background: white;
+}
+
+#botonesAcceso {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

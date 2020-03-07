@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>URBAN NEWS</title>
+  <link rel="icon" href="icon/icon-web.png" type="image/ico">
+
+  <!--CSS core Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--customCssForDarkMode-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+  <!-- Rate Yo-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!--myCustomCss-->
+  <link rel="stylesheet" href="css/noticia1.css">
+</head>
+
+
+<body class="darkMode" id="contenidoPrincipal">
+  <header>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white" id="navbar">
+      <a class="navbar-brand" href="index.html" class="d-inline-block d-align-top" id="navbarLogo">
+        <img src="icon/logo.png" alt="empresa" id="logoEmpresa"> URBAN NEWS
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="icon/menu.png" alt="desplegable" id="menuDesplegable">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <button id="botonInicio" class="btn btn-secondary" type="button" data-toggle="modal"
+              data-target="#loginModal">Iniciar sesión</button>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto " id="menuNavbar">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item" id="navDarkMode">
+            <div>
+              <input type="checkbox" class="checkbox " id="switch">
+              <label for="switch" class="switch-label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section>
+      <!--  NEWS IMAGES CAROUSEL-->
+      <div id="containerCarousel">
+        <div class="carousel slide d-block" id="carouselImages1" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/amazonas1.jpg" class="d-block w-100 h-50" alt="imagen" id="imgCarousel">
+            </div>
+            <div class="carousel-item">
+              <img src="img/amazonas2.jpg" class="d-block w-100 h-50" alt="imagen" id="imgCarousel">
+            </div>
+            <div class="carousel-item">
+              <img src="img/amazonas3.jpg" class="d-block w-100 h-50" alt="imagen" id="imgCarousel">
+            </div>
+          </div>
+          <a href="#carouselImages1" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span sr-only></span>
+          </a>
+          <a href="#carouselImages1" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span sr-only></span>
+          </a>
+        </div>
+      </div><br>
+      </div>
+  
+    </section>
+  
+  </header>
+
+  
+
+
+
+  <!-- MAIN SECTION (CONTENIDO)-->
+
+  <section>
+    <div class="container">
+      <h1><strong>El Amazonas arde.</strong></h1>
+      <h4>El pulmón del planeta se consume</h4>
+      <p class="card-text"><small class="text-muted">Publicado: 03/09/2019, New York.</small></p>
+      <p class="card-text"><small class="text-muted">Actualizado: 20/09/2019.</small></p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="lineaSeparadora"><strong>El amazonas con peor tasa de deforestacion-</strong><a href="#"
+                data-toggle="modal" data-target="#autor1Modal">Verónica
+                Goyzueta</a><br></div><br>
+            La Amazonía brasileña ha registrado su peor nivel de deforestación en más de una década. Datos oficiales
+            confirman que la deforestación viene aumentando desde agosto del año pasado, con un incremento mayor desde
+            la
+            llegada al poder del presidente Jair Bolsonaro, el líder ultraderechista que no reconoce el cambio climático
+            y
+            desdeña del calentamiento global.
+            Según el Instituto Nacional de Investigaciones Espaciales (Inpe), una entidad vinculada al Gobierno, la
+            deforestación en la Amazonía aumentó un 29,5% entre el 1 de agosto del año pasado y el 31 de julio de este
+            año, en comparación con los 12 meses anteriores, alcanzando los 9.762 km², un área casi equivalente a Lugo.
+            Es
+            la tasa más alta desde el 2008 a la que han contribuido los fuertes incendios que alarmaron al mundo, el
+            pasado agosto.
+            Los datos fueron difundidos este lunes en la sede del INPE, en São José dos Campos, en el estado de São
+            Paulo,
+            con la presencia de los ministros de Medio Ambiente, Ricardo Salles, y de Ciencia, Tecnología, Innovaciones
+            y
+            Comunicaciones, el astronauta Marcos Pontes.
+            Las informaciones son parte del análisis preliminar del Proyecto de Monitoreo de Deforestación de Amazon
+            Legal
+            por Satélite (Prodes), del Inpe, que registra la tasa anual oficial de deforestación en la Amazonía
+            brasileña.
+          </div>
+          <div class="col-md-6">
+            Según el diario Estado de São Paulo, los datos también representan el mayor salto de tala ilegal de árboles
+            un
+            año a otro en los últimos 22 años, alcanzando los 7.536 km, entre agosto de 2017 y julio de 2018, una
+            superficie casi equivalente a la de la provincia de Barcelona.
+            El director interino del Inpe, Darcton Policarpo Damião, y el ministro Salles señalaron que la deforestación
+            viene mostrando una tendencia ascendente desde 2012, a una tasa promedio de aumento del 11.4% por año.
+            Sin embargo, la observada el año pasado fue de al menos 1,500 km² por encima de esa tendencia. Según los
+            técnicos del Inpe, si la tendencia de la tasa anual se mantuviera, la pérdida de selva habría sido alrededor
+            8.278 km².
+            El estado con la tasa de deforestación más alta fue Pará, al norte de Brasil, responsable por el 39.5% de la
+            pérdida observada en toda la Amazonía, seguido por Mato Grosso, con el 17.2%. Los dos estados, junto con
+            Amazonas y Rondonia, representaron el 84% de toda la devastación.
+            El estado amazónico de Roraima, en la frontera con Venezuela, le llamó la atención a los investigadores, al
+            registrar un aumento de 216.4% de su nivel de deforestación en el mismo período. «Puede significar que se
+            está
+            convirtiendo en una nueva frontera de deforestación y merece atención», dijo Damião, del Inpe, sobre los
+            datos
+            de ese estado.
+            <u>Véase más noticias en <a href="index.html">www.urbanews.com</a> o en <a
+                href="https://www.abc.es/sociedad/abci-brasil-registra-peor-tasa-deforestacion-decada-201911182040_noticia.html">
+                www.abc.es</a></u>
+          </div>
+        </div>
+      </div><br>
+      <p id="cita"><cite>"El mundo no está en peligro por las malas personas sino por aquellas que permiten la maldad
+          (<a href="#" data-toggle="modal" data-target="#autor2Modal">Albert Einstein</a>)"</cite></p>
+      <div id="lineaSeparadora">Video</div><br>
+      <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" id="videoNoticia" src="https://www.youtube.com/embed/-IYQdY7e55M"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div><br><br>
+      <div id="lineaSeparadora">Valoraciones</div><br>
+      <div class="container" id="valoraciones">
+        <div class="container" id="usuarios">
+          <p><strong>Puntuaciones de otros usuarios:</strong> </p><br>
+          <div class="card-deck">
+            <div class="card" id="puntuaciones">
+              <div class="card-header">
+                <img src="img/albertEinstein.jpg" alt="albert" id="imgUsuario">
+              </div>
+              <div class="card-body">
+                <div class="rating" id="rating">
+                  <!-- LIKE -->
+                  <div class="like grow">
+                    <p>Antonio_11:</p>
+                    <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="puntuaciones">
+              <div class="card-header">
+                <img src="img/albertEinstein.jpg" alt="albert" id="imgUsuario">
+              </div>
+              <div class="card-body">
+                <div class="rating" id="rating">
+                  <!-- LIKE -->
+                  <div class="like grow">
+                    <p>Antonio_11:</p>
+                    <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="puntuaciones">
+              <div class="card-header">
+                <img src="img/albertEinstein.jpg" alt="albert" id="imgUsuario">
+              </div>
+              <div class="card-body">
+                <div class="rating" id="rating">
+                  <!-- LIKE -->
+                  <div class="like grow">
+                    <p>Antonio_11:</p>
+                    <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <br>
+              <p><strong>¿Y tú, cómo puntuas la noticia?</strong></p>
+              <div class="rating">
+                <!-- Thumbs up -->
+                <div class="like grow" id="like">
+                  <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+                </div>
+                <!-- Thumbs down -->
+                <div class="dislike grow" id="dislike">
+                  <i class="fa fa-thumbs-down fa-3x like" aria-hidden="true"></i>
+                </div>
+              </div>
+              <p><strong> Coméntanos qué tal te ha parecido</strong></p>
+              <div class="container">
+                <textarea name="comentario" id="comentario" rows="4" placeholder="Comentario..."></textarea>
+              </div>
+            </div><br>
+          </div><br><br>
+        </div>
+      </div>
+      <button id="ocultar" class="btn btn-secondary" data-target="#valoraciones">Ocultar valoraciones</button>
+      <button id="ver" class="btn btn-secondary" data-target="#valoraciones">Ver valoraciones</button>
+  </section><br>
+
+
+  <!-- MODALS -->
+
+  <!-- MODAL LOGIN-->
+  <section>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="modalHeader">
+            <img src="icon/logo.png" alt="#" id="logoModal">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-title text-center">
+              <h4>Login</h4>
+            </div>
+            <div class="d-flex flex-column text-center">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="email1" placeholder="Tu e-mail...">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="password1" placeholder="Tu contraseña...">
+                </div>
+                <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHOR MODALS -->
+  <section>
+    <div class="modal fade" id="autor1Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Verónica Goyzueta</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/veronica.jpg" alt="veronica" id="imagenVero">
+            <p>Peruana de nacimiento, trabajo desde hace 21 años en Sao Paulo. Soy corresponsal del diario español ABC
+              pero también escribo para otros medios de comunicación internacionales. Entre ellos, El Comercio (Perú) y
+              la revista de negocios, Dirigentes (España). También soy comentarista en el programa “Legião Estrangeira”,
+              de la TV Cultura y profesora de periodismo en la universidad Escuela Superior de Propaganda y Marketing
+              (ESPM). Fui corresponsal de las agencias de noticias Mergermarket, del grupo Financial Times (GB), Dow
+              Jones (EEUU), Notimex (México) y editora de la edición brasileña de la revista AméricaEconomía. En el 2005
+              fui “Prêmio Comunique-se en la categoría mejor Corresponsal Extranjero en Brasil”. Dicho esto, soy
+              columnista de SAH desde su nacimiento.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="modal fade" id="autor2Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Albert Einstein</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/albertEinstein.jpg" alt="albert" id="imgAlbert">
+            <p>Albert Einstein (Alemán: /ˈalbɛɐ̯t ˈʔaɪnʃtaɪn/; Ulm, Imperio alemán, 14 de marzo de 1879-Princeton,
+              Estados Unidos, 18 de abril de 1955) fue un físico alemán de origen judío, nacionalizado después suizo,
+              austriaco y estadounidense. Se lo considera el científico más importante, conocido y popular del siglo
+              XX.1​2​
+              En 1905, cuando era un joven físico desconocido, empleado en la Oficina de Patentes de Berna, publicó su
+              teoría de la relatividad especial. En ella incorporó, en un marco teórico simple fundamentado en
+              postulados físicos sencillos, conceptos y fenómenos estudiados antes por Henri Poincaré y por Hendrik
+              Lorentz. Como una consecuencia lógica de esta teoría, dedujo la ecuación de la física más conocida a nivel
+              popular: la equivalencia masa-energía, E=mc². Ese año publicó otros trabajos que sentarían algunas de las
+              bases de la física estadística y de la mecánica cuántica.
+              En 1915, presentó la teoría de la relatividad general, en la que reformuló por completo el concepto de la
+              gravedad.3​ Una de las consecuencias fue el surgimiento del estudio científico del origen y la evolución
+              del Universo por la rama de la física denominada cosmología. En 1919, cuando las observaciones británicas
+              de un eclipse solar confirmaron sus predicciones acerca de la curvatura de la luz, fue idolatrado por la
+              prensa.4​ Einstein se convirtió en un icono popular de la ciencia mundialmente famoso, un privilegio al
+              alcance de muy pocos científicos.5​
+              Por sus explicaciones sobre el efecto fotoeléctrico y sus numerosas contribuciones a la física teórica, en
+              1921 obtuvo el Premio Nobel de Física y no por la Teoría de la Relatividad, pues el científico a quien se
+              encomendó la tarea de evaluarla no la entendió, y temieron correr el riesgo de que luego se demostrase
+              errónea.6​7​ En esa época era aún considerada un tanto controvertida.
+              Ante el ascenso del nazismo, Einstein abandonó Alemania hacia diciembre de 1932 con destino a Estados
+              Unidos, donde se dedicó a la docencia en el Institute for Advanced Study. Se nacionalizó estadounidense en
+              1940. Durante sus últimos años trabajó por integrar en una misma teoría la fuerza gravitatoria y la
+              electromagnética.
+              Aunque es considerado por algunos como el «padre de la bomba atómica», abogó por el federalismo mundial,
+              el internacionalismo, el pacifismo, el sionismo y el socialismo democrático, con una fuerte devoción por
+              la libertad individual y la libertad de expresión.8​9​10​11​ Fue proclamado «personaje del siglo XX» y el
+              más preeminente científico por la revista Time.12​</p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DARK MODE BTN -->
+
+
+
+  <!-- FOOTER -->
+
+  <footer class="page-footer pt-0">
+    <div class="container">
+      <div class="row pt-5 mb-5 d-flex justify-content-center" id="fastLinks">
+        <div class="col-md-2 mb-3">
+          <button type="button" class="btn btn-link" id="botonesAcceso"><a href="whoWeAre.html">¿QUIENES
+              SOMOS?</a></button>
+        </div>
+        <div class="col-md-2 mb-3">
+          <button type="button" class="btn btn-link" id="botonesAcceso"><a href="index.html">INICIO</a></button>
+        </div>
+        <div class="col-md-2 mb-3">
+          <button type="button" class="btn btn-link" id="botonesAcceso"><a href="contacto.html">CONTACTO</a></button>
+        </div>
+        <div class="col-md-2 mb-3">
+          <button type="button" class="btn btn-link" id="botonesAcceso"><a href="suscribe.html">SUSCRIBETE PARA MÁS
+              NOTICIAS</a>
+          </button>
+        </div>
+      </div>
+      <hr class="rgba-white-light">
+      <div class="row d-flex mb-md-0 mb-4 justify-content-center">
+        <div class="col-md-8 col-12 mt-5">
+          <p> La mayor página de noticias juveniles, en la cual podrás disfrutar de las últimas noticias en cuanto a
+            temas de actualidad se refiere, haciendo sobre todo hincapié en los desastres naturales así como los
+            accidentes
+            graves que ocurren debido a la negligencia de muchas personas.</a></p>
+          <p>Puedes seguirnos y encontrarnos también en RRSS como :</p>
+        </div>
+      </div>
+      <hr class="clearfix d-md-none rgba-white-light">
+      <div class="row pb-3">
+        <div class="col-md-12">
+          <div class="footer-socials mb-5 flex-center">
+            <a href="https://www.google.com"><img src="icon/google.png" alt="#" id="logosFooter"></a>
+            <a href="https://www.linkedin.com"><img src="icon/linkedin.png" alt="#" id="logosFooter"></a>
+            <a href="https://www.instagram.com"><img src="icon/instagram.png" alt="#" id="logosFooter"></a>
+            <a href="https://www.twitter.com"><img src="icon/twitter.png" alt="#" id="logosFooter"></a>
+            <a href="https://www.facebook.com"><img src="icon/facebook.png" alt="#" id="logosFooter"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container-fluid">
+        &copy; 2019 Copyright Todos los derechos reservados: <a href="index.html">URBAN NEWS</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- OTHER JS (AND CUSTOM JS)-->
+
+  <script src="js/modal.js"></script>
+  <script src="js/rating.js"></script>
+  <script src="js/darkMode.js"></script>
+  <script src="js/ocultar.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="dist/jquery.emojiRatings.min.js"></script>
+
+
+</body>
+
+</html>

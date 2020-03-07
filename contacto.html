@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>URBAN NEWS</title>
+    <link rel="icon" href="icon/icon-web.png" type="image/ico">
+
+    <!--CSS core Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--customCssForDarkMode-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <!--myCustomCss-->
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body id="totalContent">
+
+    <!-- HEADER (NAVBAR & SUBSCRIBE CONTAINER) -->
+
+    <header id="mainHeader">
+
+        <body id="contenidoPrincipal">
+            <!-- navigationBar -->
+            <nav class="navbar navbar-expand-lg navbar-white bg-white" id="navbar">
+                <a class="navbar-brand" href="index.html"
+                    class="d-inline-block d-align-top" id="navbarLogo">
+                    <img src="icon/logo.png" alt="empresa" id="logoEmpresa"> URBAN NEWS
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img src="icon/menu.png" alt="desplegable" id="menuDesplegable">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <button id="botonInicio" class="btn btn-outline-secondary" type="button" data-toggle="modal"
+                                data-target="#loginModal">Iniciar sesión</button>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto " id="menuNavbar">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Noticias</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Desastres Naturales</a>
+                                <a class="dropdown-item" href="#">Asesinatos</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Generales</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav><br><br>
+
+            <div class="container" id="contactUsContainer"><br>
+                <div class="jumbotron jumbotron-sm">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-12">
+                                <h1 class="h1">
+                                    Contáctanos <small>Escríbenos cualquier duda</small>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="well well-sm">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">
+                                                    Nombre
+                                                </label>
+                                                <input type="text" class="form-control" id="name"
+                                                    placeholder="Escriba su nombre" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">
+                                                    E-mail
+                                                </label>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <span></span>
+                                                    </span>
+                                                    <input type="email" class="form-control" id="email"
+                                                        placeholder="Escriba su e-mail" required>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="subject">
+                                                    Asunto
+                                                </label>
+                                                <select name="subject" id="subject" class="form-control" required>
+                                                    <option value="na" selected="">Escoja un tema</option>
+                                                    <option value="service">Problemas de tarifa premium</option>
+                                                    <option value="suggestions">Sugestiones</option>
+                                                    <option value="product">Problema con legibilidad de noticias
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">
+                                                    Mensaje
+                                                </label>
+                                                <textarea name="mensaje" id="mensaje" class="form-control" cols="25"
+                                                    rows="9" required placeholder="Mensaje..."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button type="submit" class="btn btn-outline-secondary" id="btnContactUs">
+                                                Enviar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="co-md-4">
+                            <form>
+                                <legend> <span></span>Nuestras instalaciones</legend>
+                                <address>
+                                    <strong>UrbanNews, Inc</strong><br>
+                                    455 Wall Street, Suite 1000 <br>
+                                    New York, US <br>
+                                    <abbr title="phone">
+                                        P:</abbr>
+                                    (123) 456 789 10
+                                </address>
+                                <address>
+                                    <strong>URBAN NEWS</strong><br>
+                                    <a href="mailto:#">urban.news@gmail.com</a>
+                                </address>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header><br>
+
+    <footer class="page-footer pt-0">
+        <div class="container">
+            <div class="row pt-5 mb-5 d-flex justify-content-center" id="fastLinks">
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a
+                            href="whoWeAre.html">¿QUIENES
+                            SOMOS?</a></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a
+                            href="index.html">INICIO</a></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a href="contacto.html">CONTACTO</a></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-link" id="botonesAcceso"><a
+                            href="suscribe.html">SUSCRIBETE PARA MÁS
+                            NOTICIAS</a> </button>
+                </div>
+            </div>
+            <hr class="rgba-white-light">
+            <div class="row d-flex mb-md-0 mb-4 justify-content-center">
+                <div class="col-md-8 col-12 mt-5">
+                    <p> La mayor página de noticias juveniles, en la cual podrás disfrutar de las últimas noticias en
+                        cuanto a
+                        temas de actualidad se refiere, haciendo sobre todo hincapié en los desastres naturales así como
+                        los accidentes
+                        graves que ocurren debido a la negligencia de muchas personas.</a></p>
+                    <p>Puedes seguirnos y encontrarnos también en RRSS como :</p>
+                </div>
+            </div>
+            <hr class="clearfix d-md-none rgba-white-light">
+            <div class="row pb-3">
+                <div class="col-md-12">
+                    <div class="footer-socials mb-5 flex-center">
+                        <a href="https://www.google.com"><img src="icon/google.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.linkedin.com"><img src="icon/linkedin.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.instagram.com"><img src="icon/instagram.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.twitter.com"><img src="icon/twitter.png" alt="#" id="logosFooter"></a>
+                        <a href="https://www.facebook.com"><img src="icon/facebook.png" alt="#" id="logosFooter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                &copy; 2019 Copyright Todos los derechos reservados: <a
+                    href="index.html">URBAN NEWS</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

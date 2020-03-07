@@ -1,0 +1,126 @@
+/* **********************************GLOBAL CONFIGURATION***************************************************  */
+
+#totalContent {
+  font-family: 'Noto Serif', serif;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/* *************************************CONFIG NAVIGATION BAR********************************************* */
+
+#navbar {
+  opacity: 96%;
+  position: relative;
+}
+
+#navbarLogo {
+  color: black;
+  font-family: "Nosifer", cursive;
+}
+
+.dropdown-menu {
+  background-color: rgba(165, 164, 164, 1);
+}
+
+.container > div > nav {
+  align-items: center;
+}
+.navbar-brand {
+  margin-top: 1px;
+  color: rgba(88, 88, 88, 0.692);
+}
+.nav-link {
+  color: rgba(88, 88, 88, 0.692);
+}
+.form-inline > img {
+  width: 30px;
+  height: 30px;
+}
+#areaBuscar {
+  background: transparent;
+}
+#menuDesplegable {
+  width: 30px;
+  height: 30px;
+}
+#logoEmpresa {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+#dropdownMenuButton {
+  border-radius: 20px;
+}
+
+#dropdownMenuButton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 0 6px #a1c3fe;
+}
+
+#botonInicio {
+  border-radius: 20px;
+}
+
+#botonInicio:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 0 6px #a1c3fe;
+}
+
+/* *************************************** Jumbotron ************************************************************************* */
+
+.jumbotron {
+  background: darkgrey;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* ********************************************Contact Us Container************************************************************ */
+
+#contactUsContainer {
+  background: white;
+  opacity: 96%;
+  border-radius: 20px;
+  align-items: center;
+}
+
+#btnContactUs {
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#btnContactUs:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 0 6px #a1c3fe;
+}
+
+/* ***********************************CONFIG FOOTER********************************************************* */
+
+.page-footer {
+  align-items: center;
+  text-align: center;
+  background: #292c35;
+  color: white;
+}
+
+#logosFooter {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-copyright {
+  background: black;
+}
+
+.rgba-white-light {
+  background: white;
+}
+
+#botonesAcceso {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
